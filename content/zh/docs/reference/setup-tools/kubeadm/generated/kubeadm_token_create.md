@@ -112,26 +112,7 @@ Instead of printing only the token, print the full 'kubeadm join' flag needed to
 </td>
 </tr>
 <tr>
-<td></td><td style="line-height: 130%; word-wrap: break-word;">
-<!--
-The duration before the token is automatically deleted (e.g. 1s, 2m, 3h). If set to '0', the token will never expire
--->
-令牌有效时间，超过该时间令牌被自动删除。(例如： 1s, 2m, 3h)。如果设置为 '0'，令牌将永远不过期。
-</td>
-</tr>
-
-<tr>
-<td colspan="2">
-<!--
---usages stringSlice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Default: [signing,authentication]
--->
---usages stringSlice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;默认值：[signing,authentication]
-</td>
-</tr>
-<tr>
-<td></td><td style="line-height: 130%; word-wrap: break-word;">
-<!--
-Describes the ways in which this token can be used. You can pass --usages multiple times or provide a comma separated list of options. Valid options: [signing,authentication]
+<td></td><td style="line-heigh Valid options: [signing,authentication]
 -->
 描述可以使用此令牌的方式。你可以多次使用 `--usages` 或者提供一个以逗号分隔的选项列表。合法选项有: [signing,authentication]
 </td>
@@ -196,4 +177,5 @@ The kubeconfig file to use when talking to the cluster. If the flag is not set, 
 
 </tbody>
 </table>
+
 
